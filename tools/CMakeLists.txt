@@ -1,4 +1,6 @@
 if (BUILD_TOOLS)
+    add_subdirectory(imgui)
     add_subdirectory(miniposix)
     add_subdirectory(mixtool)
+    add_subdirectory(resourceeditor)
 endif()
